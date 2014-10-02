@@ -1,6 +1,6 @@
 {
   "name": "sessitoken",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Handles session or token based storing with sliding expiration",
   "main": "index.js",
   "scripts": {
