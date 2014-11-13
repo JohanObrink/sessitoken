@@ -16,7 +16,7 @@ gulp.task('mocha', function () {
 });
 
 gulp.task('watch', function() {
-  gulp.watch(['./**/*.js'], ['jshint', 'mocha']);
+  gulp.watch(['./**/*.js', '!./node_modules/**/*'], ['jshint', 'mocha']);
   gulp.watch(['.jshintrc'], ['jshint']);
 });
 
